@@ -11,7 +11,7 @@ use Livewire\Component;
 
 class Encryption extends Component
 {
-    #[Validate(['required', 'string'], as: 'Entrada')]
+    #[Validate(['required', 'string'], as: 'entrada')]
     public ?string $input = null;
 
     public ?string $output = null;
